@@ -1,0 +1,79 @@
+/* Réinitialiser les styles de base */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Style de base pour le corps du site */
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.5;
+	color: #333;
+}
+
+/* Style pour l'en-tête */
+header {
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+}
+
+/* Style pour la navigation */
+nav {
+	margin-bottom: 20px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #f00;
+}
+
+/* Style pour le titre principal */
+h1 {
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+/* Style pour les sections principales */
+section {
+	margin-bottom: 40px;
+}
+
+section h2 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+section p {
+	margin-bottom: 20px;
+}
+
+/* Style pour les boutons d'appel à l'action */
+.cta {
+	display: inline-block;
+	background-color: #f00;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 4px;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+.cta:hover {
+	background-color: #c00;
+}
